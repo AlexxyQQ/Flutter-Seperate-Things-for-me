@@ -2,6 +2,8 @@
 
 <b> Dependencies used [Flutter Native Splash](https://pub.dev/packages/flutter_native_splash) </b> <br>
 
+Refrence: [Youtube Video](https://www.youtube.com/watch?v=x0a6_ILbvAk)
+
 - Step 1:<br>
   Add a dependencies "`flutter_native_splash:`" in dependencies
   <hr>

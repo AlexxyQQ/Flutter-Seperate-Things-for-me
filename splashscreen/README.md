@@ -40,61 +40,61 @@ Refrence: [Youtube Video](https://www.youtube.com/watch?v=x0a6_ILbvAk)
 
   ```txt
   flutter_native_splash:
-    # This package generates native code to customize Flutter's default white native splash screen
-    # with background color and splash image.
-    # Customize the parameters below, and run the following command in the terminal:
-    # flutter pub run flutter_native_splash:create
-    # To restore Flutter's default white splash screen, run the following command in the terminal:
-    # flutter pub run flutter_native_splash:remove
+  # This package generates native code to customize Flutter's default white native splash screen
+  # with background color and splash image.
+  # Customize the parameters below, and run the following command in the terminal:
+  # flutter pub run flutter_native_splash:create
+  # To restore Flutter's default white splash screen, run the following command in the terminal:
+  # flutter pub run flutter_native_splash:remove
 
-    # color or background_image is the only required parameter.  Use color to set the background
-    # of your splash screen to a solid color.  Use background_image to set the background of your
-    # splash screen to a png image.  This is useful for gradients. The image will be stretch to the
-    # size of the app. Only one parameter can be used, color and background_image cannot both be set.
+  # color or background_image is the only required parameter.  Use color to set the background
+  # of your splash screen to a solid color.  Use background_image to set the background of your
+  # splash screen to a png image.  This is useful for gradients. The image will be stretch to the
+  # size of the app. Only one parameter can be used, color and background_image cannot both be set.
 
-    #TODO: Color of background here
-    color: "#ffc800"
+  #TODO: Color of background here
+  color: "#ffc800"
 
-    #TODO: Backgroudn Image here
-    #background_image: "assets/background.png"
+  #TODO: Backgroudn Image here
+  #background_image: "assets/background.png"
 
-    # Optional parameters are listed below.  To enable a parameter, uncomment the line by removing
-    # the leading # character.
+  # Optional parameters are listed below.  To enable a parameter, uncomment the line by removing
+  # the leading # character.
 
-    # The image parameter allows you to specify an image used in the splash screen.  It must be a
-    # png file and should be sized for 4x pixel density.
+  # The image parameter allows you to specify an image used in the splash screen.  It must be a
+  # png file and should be sized for 4x pixel density.
 
-    #TODO: Icon to display on center here
-    #image: assets/splash.png
+  #TODO: Icon to display on center here
+  #image: assets/splash.png
 
-    # The branding property allows you to specify an image used as branding in the splash screen.
-    # It must be a png file. It is supported for Android, iOS and the Web.  For Android 12,
-    # see the Android 12 section below.
+  # The branding property allows you to specify an image used as branding in the splash screen.
+  # It must be a png file. It is supported for Android, iOS and the Web.  For Android 12,
+  # see the Android 12 section below.
 
-    #TODO: Brand Logo here
-    #branding: assets/dart.png
+  #TODO: Brand Logo here
+  #branding: assets/dart.png
 
-    # To position the branding image at the bottom of the screen you can use bottom, bottomRight,
-    # and bottomLeft. The default values is bottom if not specified or specified something else.
+  # To position the branding image at the bottom of the screen you can use bottom, bottomRight,
+  # and bottomLeft. The default values is bottom if not specified or specified something else.
 
-    #TODO: Brand Logo position here
-    #branding_mode: bottom
+  #TODO: Brand Logo position here
+  #branding_mode: bottom
 
-    # The color_dark, background_image_dark, image_dark, branding_dark are parameters that set the background
-    # and image when the device is in dark mode. If they are not specified, the app will use the
-    # parameters from above. If the image_dark parameter is specified, color_dark or
-    # background_image_dark must be specified.  color_dark and background_image_dark cannot both be
-    # set.
-    #TODO:
-    #color_dark: "#042a49"
-    #background_image_dark: "assets/dark-background.png"
-    #image_dark: assets/splash-invert.png
-    #branding_dark: assets/dart_dark.png
+  # The color_dark, background_image_dark, image_dark, branding_dark are parameters that set the background
+  # and image when the device is in dark mode. If they are not specified, the app will use the
+  # parameters from above. If the image_dark parameter is specified, color_dark or
+  # background_image_dark must be specified.  color_dark and background_image_dark cannot both be
+  # set.
+  #TODO:
+  #color_dark: "#042a49"
+  #background_image_dark: "assets/dark-background.png"
+  #image_dark: assets/splash-invert.png
+  #branding_dark: assets/dart_dark.png
 
-    # Android 12 handles the splash screen differently than previous versions.  Please visit
-    # https://developer.android.com/guide/topics/ui/splash-screen
-    # Following are Android 12 specific parameter.
-   android_12:
+  # Android 12 handles the splash screen differently than previous versions.  Please visit
+  # https://developer.android.com/guide/topics/ui/splash-screen
+  # Following are Android 12 specific parameter.
+  android_12:
     # The image parameter sets the splash screen icon image.  If this parameter is not specified,
     # the app's launcher icon will be used instead.
     # Please note that the splash screen will be clipped to a circle on the center of the screen.
@@ -195,6 +195,7 @@ Refrence: [Youtube Video](https://www.youtube.com/watch?v=x0a6_ILbvAk)
   #info_plist_files:
   #  - 'ios/Runner/Info-Debug.plist'
   #  - 'ios/Runner/Info-Release.plist'
+
 
   ```
 

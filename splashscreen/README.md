@@ -38,7 +38,7 @@ Refrence: [Youtube Video](https://www.youtube.com/watch?v=x0a6_ILbvAk)
 
   in the root directory and add the following code:
 
-  ```yaml
+  ```txt
   flutter_native_splash:
   # This package generates native code to customize Flutter's default white native splash screen
   # with background color and splash image.

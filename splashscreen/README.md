@@ -59,7 +59,7 @@ Refrence: [Youtube Video](https://www.youtube.com/watch?v=x0a6_ILbvAk)
 
   # The image parameter allows you to specify an image used in the splash screen.  It must be a
   # png file and should be sized for 4x pixel density.
-  image: assets/SplashScreenImages/Fitzen.png
+  #image: assets/splash.png
 
   # The branding property allows you to specify an image used as branding in the splash screen.
   # It must be a png file. It is supported for Android, iOS and the Web.  For Android 12,
@@ -91,9 +91,7 @@ Refrence: [Youtube Video](https://www.youtube.com/watch?v=x0a6_ILbvAk)
     # 640 pixels in diameter.
     # App icon without an icon background: This should be 1152×1152 pixels, and fit within a circle
     # 768 pixels in diameter.
-    image: assets/SplashScreenImages/Fitzen.png
-
-    # This is center image
+    #image: assets/android12splash.png
 
     # Splash screen background color.
     color: "#ffc800"
@@ -102,7 +100,7 @@ Refrence: [Youtube Video](https://www.youtube.com/watch?v=x0a6_ILbvAk)
     #icon_background_color: "#111111"
 
     # The branding property allows you to specify an image used as branding in the splash screen.
-    #branding: assets/Fitzen.png
+    #branding: assets/dart.png
 
     # The image_dark, color_dark, icon_background_color_dark, and branding_dark set values that
     # apply when the device is in dark mode. If they are not specified, the app will use the
@@ -114,8 +112,9 @@ Refrence: [Youtube Video](https://www.youtube.com/watch?v=x0a6_ILbvAk)
   # The android, ios and web parameters can be used to disable generating a splash screen on a given
   # platform.
   #android: false
-  ios: false
-  web: false
+  #ios: false
+  #web: false
+
   # Platform specific images can be specified with the following parameters, which will override
   # the respective parameter.  You may specify all, selected, or none of these parameters:
   #color_android: "#42a5f5"
@@ -178,6 +177,7 @@ Refrence: [Youtube Video](https://www.youtube.com/watch?v=x0a6_ILbvAk)
   #info_plist_files:
   #  - 'ios/Runner/Info-Debug.plist'
   #  - 'ios/Runner/Info-Release.plist'
+
   ```
 
 - Step 6:

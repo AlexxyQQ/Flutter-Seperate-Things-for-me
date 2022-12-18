@@ -5,26 +5,38 @@
 Refrence: [Youtube Video](https://www.youtube.com/watch?v=x0a6_ILbvAk)
 
 - Step 1:<br>
-  Add dependencies 
-  ``` txt
+  Add dependencies
+  ```txt
   flutter_native_splash:
-  ``` 
+  ```
   in dependencies
   <hr>
   <img src = "assets/Readme Images/Dependencies.png">
   <hr>
 - Step 2:<br>
-  Create an "`assets`" folder in the root directory
+  Create an
+  ```txt
+  assets
+  ```
+  folder in the root directory
 - Step 4:<br>
   Go to <br>
   pubspec.yaml > line 64 <br>
   and uncomment the "assets:" and under the assets add
-  "`- assets/`"
+  ```txt
+  - assets/
+  ```
   <hr>
   <img src = "assets/Readme Images/Assets.png">
   <hr>
 - Step 5:<br>
-  Create a <b>yaml</b> file named "`flutter_native_splash`" in the root directory and add the following code:
+  Create a <b>yaml</b> file named
+
+  ```txt
+  flutter_native_splash
+  ```
+
+  in the root directory and add the following code:
 
   ```yaml
   flutter_native_splash:

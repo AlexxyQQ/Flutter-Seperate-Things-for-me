@@ -5,7 +5,7 @@
 Refrence: [Youtube Video](https://www.youtube.com/watch?v=x0a6_ILbvAk)
 
 - Step 1:<br>
-  Add a dependencies <br> 
+  Add dependencies 
   ``` txt
   flutter_native_splash:
   ``` 

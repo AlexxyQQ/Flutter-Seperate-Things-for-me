@@ -5,7 +5,11 @@
 Refrence: [Youtube Video](https://www.youtube.com/watch?v=x0a6_ILbvAk)
 
 - Step 1:<br>
-  Add a dependencies "```flutter_native_splash:```" in dependencies
+  Add a dependencies <br> 
+  ``` txt
+  flutter_native_splash:
+  ``` 
+  in dependencies
   <hr>
   <img src = "assets/Readme Images/Dependencies.png">
   <hr>

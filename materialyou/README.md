@@ -87,3 +87,7 @@ Refrence: [Youtube Video](https://www.youtube.com/watch?v=n0axxcXQB0c)
   <img src = "assets/Readme Images/rep_code.png">
   <hr>
   
+## SHA-1
+``` bash
+./gradlew app:signingReport
+```
